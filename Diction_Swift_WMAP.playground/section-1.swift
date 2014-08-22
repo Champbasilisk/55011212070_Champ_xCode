@@ -11,15 +11,19 @@ if airports.isEmpty{
 
 println("The airports dictionary contains\(airports.count) item")
 
+//---add values---//
+airports["LHR"] = "London"
+
+//---update values---//
 airports["LHR"] = "London Heathrow"
-// the airport dictionary now contains 3 item
-airports
+//the airport dictionary now contains 3 item
 
 if let oldValue = airports.updateValue("Dublin Tnternational", forKey: "DUB"){
     println("THe old value for DUB was \(oldValue).")
 }
 airports
 
+//---remove---//
 airports["APL"] = "Apple International"
 
 airports["APL"] = nil
