@@ -18,3 +18,8 @@ let onSaleExpLicit:Bool = false
 let nameInferred = "Whoopie Cushion"
 let nameExpLicit:String = "Whoopie Cushion"
 
+if (onSaleInferred) {
+    println("\(nameInferred) on sale for \(priceIntInferred)!")
+} else {
+    println("\(nameInferred) at regular price : \(priceIntInferred)!")
+}
