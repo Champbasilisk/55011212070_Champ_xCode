@@ -1,8 +1,8 @@
 var shoppingListExplicit = [String]()
-shoppingListExplicit = ["Eggs","Milk"] //นิยมใช้
-//var shoppingListExplicit: [String] = ["Eggs","Milk"] //การประกาศ array
+shoppingListExplicit = ["Eggs","Milk"] //แบบยาว
+//var shoppingListExplicit: [String] = ["Eggs","Milk"] //การประกาศ array แบบสั่นหน่อยๆ
 
-var shoppingList = ["Eggs","Milk"]
+var shoppingList = ["Eggs","Milk"] //มักง่าย
 println("The shopping list contains\(shoppingList.count) items.")
 
 //---------การเพิ่มข้อมูลลง array----------//
@@ -35,3 +35,16 @@ let Apple = shoppingList.removeAtIndex(2)
 shoppingList
 
 shoppingList.removeLast()
+
+//--------29/08/14--------//
+
+var idArray:[Int] = [55011212070, 55011212169]
+var newID = idArray[0]+2
+var Friendname:[String] = ["Gle","Ice","Nay","Champ"]
+
+idArray.append(55011212103)
+idArray += [55011212150,55011212122]
+
+//idArray[2...4] = [0,1]  array size changed
+idArray[2...4] = [0,1,2]
+idArray
