@@ -9,10 +9,12 @@ if airports.isEmpty{
     println("The airport dictionary is not empty.")
 }
 
+
 println("The airports dictionary contains\(airports.count) item")
 
 //---add values---//
 airports["LHR"] = "London"
+airports["ROE"] = "Roi-Ed"
 
 //---update values---//
 airports["LHR"] = "London Heathrow"
@@ -25,9 +27,9 @@ airports
 
 //---remove---//
 airports["APL"] = "Apple International"
-
+airports
 airports["APL"] = nil
-
+airports
 if let removedValue = airports.removeValueForKey("DUB"){
     println("The removed airport's name is \(removedValue).")
 }else{

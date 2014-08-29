@@ -1,4 +1,4 @@
-class TipCalculator{
+class TipCalculator {
     
     //2
     let total: Double
@@ -7,12 +7,12 @@ class TipCalculator{
     
     //3
     init(total:Double, taxPct:Double){
-        self.total = total
+        self.total = total                          // self  variable for this constructer
         self.taxPct = taxPct
         subtotal = total / (taxPct + 1)
     }
     //4
-    func calcTipWithTipPct(tipPct:Double) ->Double{
+    func calcTipWithTipPct(tipPct:Double) ->Double{ //for return with vector ->
         return subtotal * tipPct
     }
     
