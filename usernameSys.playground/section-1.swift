@@ -26,3 +26,5 @@ userSystem.addID("admin", password: "admin")
 userSystem.changePass("Champ", password: "basilisk")
 userSystem.userID
 userSystem.addID("admin2", password: "admin")
+userSystem.addID("newid", password: "newpw")
+userSystem.userID
