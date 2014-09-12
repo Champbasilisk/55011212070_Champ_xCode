@@ -1,15 +1,27 @@
-class TipCalculator {
+//
+//  File.swift
+//  TipCalculator
+//
+//  Created by student on 9/12/14.
+//  Copyright (c) 2014 student. All rights reserved.
+//
+
+import Foundation
+class TipCalculatorModel {
     
     //2
-    let total: Double
-    let taxPct: Double
-    let subtotal: Double
+    var total: Double
+    var taxPct: Double
+    var subtotal: Double {
+        get {
+            return total / (taxPct+1)
+        }
+    }
     
     //3
     init(total:Double, taxPct:Double){
         self.total = total                          // self  variable for this constructer
         self.taxPct = taxPct
-        subtotal = total / (taxPct + 1)
     }
     //4
     func calcTipWithTipPct(tipPct:Double) ->Double{ //for return with vector ->
@@ -20,7 +32,6 @@ class TipCalculator {
     func returnPossibleTips() -> [Int: Double]{
         let possibleTipsInferred = [0.15, 0.18, 0.20]
         let possibleTipExplicit:[Double] = [0.15, 0.18, 0.20]
-        var numberOfIntems = possibleTipsInferred.count
         
         //2
         var retval = [Int: Double]()
@@ -34,4 +45,4 @@ class TipCalculator {
 }
 
 //6
-let tipCalc = TipCalculator(total: 33.25, taxPct: 0.06)
+let tipCalC = TipCalculatorModel(total: 33.25, taxPct: 0.06)

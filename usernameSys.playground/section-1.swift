@@ -41,7 +41,7 @@ class userSys {
     /*-- Add Remove user function--*/
     func removeUser(userName:String){
         if let removeUser = userID.removeValueForKey("\(userName)"){
-            println("Remove user name\(removeUser).")
+            println("Remove user name \(removeUser).")
         } else {
             println("User not exist")
         }
