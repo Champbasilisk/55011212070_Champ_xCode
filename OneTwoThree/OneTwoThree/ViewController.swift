@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet var LThree: UILabel!
     
     @IBAction func Clickone(sender: AnyObject) {
-        LOne.text = "1"
+        var num = 0
     }
     
     override func viewDidLoad() {
