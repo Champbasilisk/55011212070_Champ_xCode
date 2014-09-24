@@ -328,6 +328,7 @@
 				INFOPLIST_FILE = OneTwoThree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -339,6 +340,7 @@
 				INFOPLIST_FILE = OneTwoThree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -395,6 +397,7 @@
 				3F25515C19C2F5D700D8F68B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F25515D19C2F5D700D8F68B /* Build configuration list for PBXNativeTarget "OneTwoThreeTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +406,7 @@
 				3F25515F19C2F5D700D8F68B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
