@@ -6,22 +6,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SwiftTableView/ViewController.swift"
-            timestampString = "433240710.219429"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -49,6 +33,64 @@
             endingLineNumber = "13"
             landmarkName = "ViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftTableView.ViewController.cellIdentifier.getter : Swift.String"
+                  moduleName = "SwiftTableView"
+                  urlString = "file:///Users/student/Desktop/55011212070_Champ_xCode/SwiftTableView/SwiftTableView/ViewController.swift"
+                  timestampString = "433412011.606211"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftTableView.ViewController.init (SwiftTableView.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; SwiftTableView.ViewController"
+                  moduleName = "SwiftTableView"
+                  urlString = "file:///Users/student/Desktop/55011212070_Champ_xCode/SwiftTableView/SwiftTableView/ViewController.swift"
+                  timestampString = "433412011.606667"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftTableView.ViewController.init (SwiftTableView.ViewController.Type)() -&gt; SwiftTableView.ViewController"
+                  moduleName = "SwiftTableView"
+                  urlString = "file:///Users/student/Desktop/55011212070_Champ_xCode/SwiftTableView/SwiftTableView/ViewController.swift"
+                  timestampString = "433412011.606774"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftTableView.ViewController.init (SwiftTableView.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; SwiftTableView.ViewController"
+                  moduleName = "SwiftTableView"
+                  urlString = "file:///Users/student/Desktop/55011212070_Champ_xCode/SwiftTableView/SwiftTableView/ViewController.swift"
+                  timestampString = "433412011.606892"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
