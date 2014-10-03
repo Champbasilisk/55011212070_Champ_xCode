@@ -14,9 +14,8 @@ class ViewController: UIViewController, UITableViewDelegate {
     @IBOutlet var textName: UITextField!
     let cellIdentifired = "cellIdentifierd"
     var tableData:[String] = []
-    @IBAction func addMem(sender: AnyObject) {
-        
-    }
+    var name:[String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -28,8 +27,14 @@ class ViewController: UIViewController, UITableViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func addMember(sender: AnyObject) {
+        
+        var name = tableData
+        tableView.reloadData();
+    }
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return tableData.count
+        return name.count
     }
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
@@ -39,7 +44,8 @@ class ViewController: UIViewController, UITableViewDelegate {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell{
         var cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier:nil)
         
-        cell.textLabel!.text = "text"
+        let showName = name[indexPath.row]
+        cell.textLabel!.text = "\(name)"
         return cell
     }
 }

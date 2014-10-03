@@ -52,7 +52,7 @@
                                     <rect key="frame" x="141" y="136" width="38" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="addMem:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EhA-m9-hFn"/>
+                                    <action selector="addMember:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BhY-UQ-3wp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -82,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="781.5" y="222"/>
+            <point key="canvasLocation" x="754.5" y="185.25"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="t9J-Zt-66J">
@@ -100,7 +100,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KIN-3u-LIb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15" y="226.5"/>
+            <point key="canvasLocation" x="156" y="185.25"/>
         </scene>
     </scenes>
 </document>
