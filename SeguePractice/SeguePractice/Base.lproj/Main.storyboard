@@ -19,7 +19,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unknown" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veZ-1Q-5Op">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.42588288259286333" green="0.39945193542156854" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="124" y="273" width="73" height="21"/>
@@ -28,7 +28,7 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yhi-1j-7bd">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="axK-bx-tu6">
+                                    <navigationItem title=" Title" id="axK-bx-tu6">
                                         <barButtonItem key="rightBarButtonItem" title="Color" id="NMH-gb-fWi">
                                             <connections>
                                                 <segue destination="mze-ZQ-dmx" kind="show" identifier="MySegue" id="cNB-Rk-Waw"/>
@@ -41,7 +41,7 @@
                                 </variation>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.99482331950000003" blue="0.97290677439999995" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="veZ-1Q-5Op"/>
@@ -82,7 +82,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Title" id="OMQ-JS-5g8">
-                                        <barButtonItem key="rightBarButtonItem" title="Save" id="nRU-bb-8Uy"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Save" id="nRU-bb-8Uy">
+                                            <connections>
+                                                <action selector="saveColor:" destination="mze-ZQ-dmx" id="eDr-jI-S9Z"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -92,64 +96,79 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IT6-Wc-kat">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.42588288260000001" green="0.39945193540000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="139" y="273" width="42" height="21"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FkY-cN-jPh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swt-8j-82T">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Green">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Red">
+                                    <color key="titleColor" red="0.98777173910000005" green="0.32115847470226577" blue="0.28880337881032703" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="225" y="188" width="42" height="30"/>
+                                    <rect key="frame" x="34" y="210" width="53" height="45"/>
                                 </variation>
+                                <connections>
+                                    <action selector="colorSelectionButton:" destination="mze-ZQ-dmx" eventType="touchUpInside" id="7NU-Ka-kt7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMk-0L-4LT">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Blue">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.47459988867956621" green="0.71417387550988976" blue="0.98777173910000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="181" y="395" width="31" height="30"/>
+                                    <rect key="frame" x="170" y="395" width="42" height="40"/>
                                 </variation>
                                 <connections>
-                                    <action selector="colorSelectionButton:" destination="mze-ZQ-dmx" eventType="touchUpInside" id="7AD-A3-70w"/>
+                                    <action selector="colorSelectionButton:" destination="mze-ZQ-dmx" eventType="touchUpInside" id="mZA-1T-Fye"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swt-8j-82T">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FkY-cN-jPh">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Red">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Green">
+                                    <color key="titleColor" red="0.42223613374813868" green="0.98777173910000005" blue="0.49855309292290412" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="49" y="229" width="30" height="30"/>
+                                    <rect key="frame" x="228" y="167" width="54" height="43"/>
                                 </variation>
+                                <connections>
+                                    <action selector="colorSelectionButton:" destination="mze-ZQ-dmx" eventType="touchUpInside" id="COG-aG-jIH"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.99482331951818015" blue="0.97290677438483286" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="l3m-6b-OfY"/>
                                 <exclude reference="IT6-Wc-kat"/>
-                                <exclude reference="FkY-cN-jPh"/>
-                                <exclude reference="hMk-0L-4LT"/>
                                 <exclude reference="swt-8j-82T"/>
+                                <exclude reference="hMk-0L-4LT"/>
+                                <exclude reference="FkY-cN-jPh"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="l3m-6b-OfY"/>
                                 <include reference="IT6-Wc-kat"/>
-                                <include reference="FkY-cN-jPh"/>
-                                <include reference="hMk-0L-4LT"/>
                                 <include reference="swt-8j-82T"/>
+                                <include reference="hMk-0L-4LT"/>
+                                <include reference="FkY-cN-jPh"/>
                             </mask>
                         </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="colorLabel" destination="IT6-Wc-kat" id="Ips-ug-6pg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eQj-i7-Vaf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

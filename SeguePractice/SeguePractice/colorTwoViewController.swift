@@ -10,11 +10,16 @@ import UIKit
 
 class colorTwoViewController: UIViewController {
     
-
+    
+    var colorString = ""
+    @IBOutlet var colorLabel: UILabel!
     @IBAction func colorSelectionButton(sender: UIButton) {
         
     }
     
+    @IBAction func saveColor(sender: UIBarButtonItem) {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
