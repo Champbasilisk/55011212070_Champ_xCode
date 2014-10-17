@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0F9F1E19F10181009C16E8 /* Truck.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F9F1D19F10181009C16E8 /* Truck.png */; };
+		3F0F9F2019F1018D009C16E8 /* Helicopter.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F9F1F19F1018D009C16E8 /* Helicopter.png */; };
+		3F0F9F2219F10195009C16E8 /* Bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F9F2119F10195009C16E8 /* Bus.png */; };
 		3F8777FE19E7B1CD00A3F961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8777FD19E7B1CD00A3F961 /* AppDelegate.swift */; };
 		3F87780019E7B1CD00A3F961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8777FF19E7B1CD00A3F961 /* ViewController.swift */; };
 		3F87780319E7B1CD00A3F961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F87780119E7B1CD00A3F961 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0F9F1D19F10181009C16E8 /* Truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Truck.png; sourceTree = "<group>"; };
+		3F0F9F1F19F1018D009C16E8 /* Helicopter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Helicopter.png; sourceTree = "<group>"; };
+		3F0F9F2119F10195009C16E8 /* Bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bus.png; sourceTree = "<group>"; };
 		3F8777F819E7B1CD00A3F961 /* Exam_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exam_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8777FC19E7B1CD00A3F961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F8777FD19E7B1CD00A3F961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +96,9 @@
 		3F8777FB19E7B1CD00A3F961 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F0F9F2119F10195009C16E8 /* Bus.png */,
+				3F0F9F1F19F1018D009C16E8 /* Helicopter.png */,
+				3F0F9F1D19F10181009C16E8 /* Truck.png */,
 				3F8777FC19E7B1CD00A3F961 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0F9F2219F10195009C16E8 /* Bus.png in Resources */,
+				3F0F9F2019F1018D009C16E8 /* Helicopter.png in Resources */,
 				3F87780319E7B1CD00A3F961 /* Main.storyboard in Resources */,
+				3F0F9F1E19F10181009C16E8 /* Truck.png in Resources */,
 				3F87780819E7B1CD00A3F961 /* LaunchScreen.xib in Resources */,
 				3F87780519E7B1CD00A3F961 /* Images.xcassets in Resources */,
 			);
@@ -405,6 +417,7 @@
 				3F87781919E7B1CD00A3F961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F87781A19E7B1CD00A3F961 /* Build configuration list for PBXNativeTarget "Exam_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				3F87781C19E7B1CD00A3F961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,8 +18,9 @@ class ViewController: UIViewController,UITableViewDelegate {
     var total:Double = 0
     var tvolume:Double = 0
     var tprice:Double = 0
-    var profit:[Double] = []
-    var percent:[Int] = [3,5,10]
+    var profit:[Double] = [0,0,0]
+    var percent = [3,5,10]
+    var image = ["Bus","Helicopter","Truck"]
     @IBAction func cal(sender: AnyObject) {
         tvolume = Double((volume.text as NSString).doubleValue)
         tprice = Double((price.text as NSString).doubleValue)
@@ -34,6 +35,7 @@ class ViewController: UIViewController,UITableViewDelegate {
         profit.insert(_3percent, atIndex: 0)
         profit.insert(_5percent, atIndex: 1)
         profit.insert(_10percent, atIndex: 2)
+        tableView.reloadData()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,10 +57,10 @@ class ViewController: UIViewController,UITableViewDelegate {
     
     func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell{
         var cell = tableView.dequeueReusableCellWithIdentifier("cell") as UITableViewCell
-        let profitC = profit[indexPath.row]
-        let percentage = percent[indexPath.row]
         
-        cell.textLabel!.text = String(format: "ราคาหุ้นขึ้น $%d : กำไร $%0.2fบาท",percentage,profitC)
+        var imageName = UIImage(named: image[indexPath.row])
+        cell.imageView!.image = imageName
+        cell.textLabel!.text = String(format: "ราคาหุ้นขึ้น \(percent[indexPath.row]) : กำไร\(profit[indexPath.row])บาท")
         return cell
     }
 
