@@ -16,7 +16,6 @@ class ColorTwoViewController: UIViewController {
     @IBOutlet var colorLabel: UILabel!
     var delegate:ColorTwoViewControllerDelegate? = nil
     var colorString = ""
-    
     @IBAction func saveColor(sender: UIBarButtonItem) {
         if (delegate != nil) {
             delegate!.myVCDidFinish(self, text: colorLabel!.text!)
@@ -24,6 +23,7 @@ class ColorTwoViewController: UIViewController {
     }
     @IBAction func colorSelectionButton(sender: UIButton) {
         colorLabel.text = sender.titleLabel!.text!
+        colorLabel.backgroundColor = sender.backgroundColor
     }
     override func viewDidLoad() {
         super.viewDidLoad()

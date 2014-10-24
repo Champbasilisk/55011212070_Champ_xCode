@@ -73,16 +73,18 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="273" width="320" height="21"/>
+                                    <rect key="frame" x="0.0" y="64" width="320" height="357"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dz3-Mo-deN">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.55712671745938358" green="0.78114902513738416" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Blue">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.22663933056675264" green="0.47317474608069154" blue="0.80691661005434789" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.22663933059999999" green="0.47317474609999999" blue="0.80691661010000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="145" y="378" width="31" height="30"/>
+                                    <rect key="frame" x="0.0" y="526" width="320" height="42"/>
                                 </variation>
                                 <connections>
                                     <action selector="colorSelectionButton:" destination="fHl-zq-HVP" eventType="touchUpInside" id="5nt-1G-GGp"/>
@@ -90,11 +92,13 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGH-si-8yv">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.60571465132595459" green="1" blue="0.73117374337413266" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Green">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.13371561645789662" green="0.71683933423913038" blue="0.25614688884289588" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.1337156165" green="0.71683933420000001" blue="0.25614688880000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="139" y="340" width="42" height="30"/>
+                                    <rect key="frame" x="0.0" y="477" width="320" height="41"/>
                                 </variation>
                                 <connections>
                                     <action selector="colorSelectionButton:" destination="fHl-zq-HVP" eventType="touchUpInside" id="FEL-gQ-EKE"/>
@@ -102,11 +106,13 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zug-Ne-2yn">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.98777173910000005" green="0.59901128443356744" blue="0.6051980264333946" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Red">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.74791949728260865" green="0.043439549988378248" blue="0.16758680366541295" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.74791949729999996" green="0.04343954999" blue="0.16758680370000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="137" y="302" width="46" height="30"/>
+                                    <rect key="frame" x="0.0" y="429" width="320" height="40"/>
                                 </variation>
                                 <connections>
                                     <action selector="colorSelectionButton:" destination="fHl-zq-HVP" eventType="touchUpInside" id="EhN-e2-LZ5"/>
