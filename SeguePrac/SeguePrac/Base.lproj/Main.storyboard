@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--One-->
+        <!--Show Color-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SeguePrac" customModuleProvider="target" sceneMemberID="viewController">
@@ -22,7 +22,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="101" y="273" width="119" height="21"/>
+                                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -38,7 +38,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="One" id="Ckn-RK-Cye">
+                    <navigationItem key="navigationItem" title="Show Color" id="Ckn-RK-Cye">
                         <barButtonItem key="rightBarButtonItem" title="Color" id="ATe-fx-ODb">
                             <connections>
                                 <segue destination="fHl-zq-HVP" kind="show" identifier="mySegue" id="5IP-na-ghY"/>
@@ -55,7 +55,7 @@
             </objects>
             <point key="canvasLocation" x="721.5" y="300"/>
         </scene>
-        <!--Two-->
+        <!--Select Color-->
         <scene sceneID="sVf-eT-Isz">
             <objects>
                 <viewController id="fHl-zq-HVP" customClass="ColorTwoViewController" customModule="SeguePrac" customModuleProvider="target" sceneMemberID="viewController">
@@ -67,15 +67,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pwU-RD-mTB">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="320" height="357"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dz3-Mo-deN">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.55712671745938358" green="0.78114902513738416" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -118,26 +109,35 @@
                                     <action selector="colorSelectionButton:" destination="fHl-zq-HVP" eventType="touchUpInside" id="EhN-e2-LZ5"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pwU-RD-mTB">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="320" height="357"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="pwU-RD-mTB"/>
                                 <exclude reference="Dz3-Mo-deN"/>
                                 <exclude reference="BGH-si-8yv"/>
                                 <exclude reference="Zug-Ne-2yn"/>
+                                <exclude reference="pwU-RD-mTB"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="pwU-RD-mTB"/>
                                 <include reference="Dz3-Mo-deN"/>
                                 <include reference="BGH-si-8yv"/>
                                 <include reference="Zug-Ne-2yn"/>
+                                <include reference="pwU-RD-mTB"/>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Two" id="Q0N-JD-6Hi">
+                    <navigationItem key="navigationItem" title="Select Color" id="Q0N-JD-6Hi">
                         <barButtonItem key="rightBarButtonItem" title="Save" id="QMy-c3-iw2">
                             <connections>
                                 <action selector="saveColor:" destination="fHl-zq-HVP" id="oAd-z8-IwP"/>
