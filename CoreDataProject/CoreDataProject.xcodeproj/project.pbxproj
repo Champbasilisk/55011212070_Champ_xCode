@@ -14,6 +14,16 @@
 		3F4E8F2A1A0363C00046EA06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8F291A0363C00046EA06 /* Images.xcassets */; };
 		3F4E8F2D1A0363C00046EA06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8F2B1A0363C00046EA06 /* LaunchScreen.xib */; };
 		3F4E8F391A0363C00046EA06 /* CoreDataProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E8F381A0363C00046EA06 /* CoreDataProjectTests.swift */; };
+		3F4E8F4B1A037CE70046EA06 /* cheez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8F421A037CE70046EA06 /* cheez.jpg */; };
+		3F4E8F4C1A037CE70046EA06 /* bread.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8F431A037CE70046EA06 /* bread.jpg */; };
+		3F4E8F4D1A037CE70046EA06 /* beef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8F441A037CE70046EA06 /* beef.jpg */; };
+		3F4E8F4E1A037CE70046EA06 /* chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8F451A037CE70046EA06 /* chicken.jpg */; };
+		3F4E8F4F1A037CE70046EA06 /* hamberger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8F461A037CE70046EA06 /* hamberger.jpg */; };
+		3F4E8F501A037CE70046EA06 /* egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8F471A037CE70046EA06 /* egg.jpg */; };
+		3F4E8F511A037CE70046EA06 /* milk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8F481A037CE70046EA06 /* milk.jpg */; };
+		3F4E8F521A037CE70046EA06 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8F491A037CE70046EA06 /* apple.jpg */; };
+		3F4E8F531A037CE70046EA06 /* fish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8F4A1A037CE70046EA06 /* fish.jpg */; };
+		3F4E8F551A037EC10046EA06 /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8F541A037EC10046EA06 /* food.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +48,16 @@
 		3F4E8F321A0363C00046EA06 /* CoreDataProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4E8F371A0363C00046EA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F4E8F381A0363C00046EA06 /* CoreDataProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectTests.swift; sourceTree = "<group>"; };
+		3F4E8F421A037CE70046EA06 /* cheez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cheez.jpg; sourceTree = "<group>"; };
+		3F4E8F431A037CE70046EA06 /* bread.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bread.jpg; sourceTree = "<group>"; };
+		3F4E8F441A037CE70046EA06 /* beef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beef.jpg; sourceTree = "<group>"; };
+		3F4E8F451A037CE70046EA06 /* chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chicken.jpg; sourceTree = "<group>"; };
+		3F4E8F461A037CE70046EA06 /* hamberger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamberger.jpg; sourceTree = "<group>"; };
+		3F4E8F471A037CE70046EA06 /* egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg.jpg; sourceTree = "<group>"; };
+		3F4E8F481A037CE70046EA06 /* milk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = milk.jpg; sourceTree = "<group>"; };
+		3F4E8F491A037CE70046EA06 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		3F4E8F4A1A037CE70046EA06 /* fish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish.jpg; sourceTree = "<group>"; };
+		3F4E8F541A037EC10046EA06 /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +113,16 @@
 		3F4E8F1D1A0363C00046EA06 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F4E8F541A037EC10046EA06 /* food.jpg */,
+				3F4E8F421A037CE70046EA06 /* cheez.jpg */,
+				3F4E8F431A037CE70046EA06 /* bread.jpg */,
+				3F4E8F441A037CE70046EA06 /* beef.jpg */,
+				3F4E8F451A037CE70046EA06 /* chicken.jpg */,
+				3F4E8F461A037CE70046EA06 /* hamberger.jpg */,
+				3F4E8F471A037CE70046EA06 /* egg.jpg */,
+				3F4E8F481A037CE70046EA06 /* milk.jpg */,
+				3F4E8F491A037CE70046EA06 /* apple.jpg */,
+				3F4E8F4A1A037CE70046EA06 /* fish.jpg */,
 				3F4E8F1E1A0363C00046EA06 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,9 +225,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F4E8F4E1A037CE70046EA06 /* chicken.jpg in Resources */,
+				3F4E8F531A037CE70046EA06 /* fish.jpg in Resources */,
+				3F4E8F4F1A037CE70046EA06 /* hamberger.jpg in Resources */,
 				3F4E8F281A0363C00046EA06 /* Main.storyboard in Resources */,
+				3F4E8F521A037CE70046EA06 /* apple.jpg in Resources */,
+				3F4E8F4D1A037CE70046EA06 /* beef.jpg in Resources */,
 				3F4E8F2D1A0363C00046EA06 /* LaunchScreen.xib in Resources */,
 				3F4E8F2A1A0363C00046EA06 /* Images.xcassets in Resources */,
+				3F4E8F511A037CE70046EA06 /* milk.jpg in Resources */,
+				3F4E8F551A037EC10046EA06 /* food.jpg in Resources */,
+				3F4E8F501A037CE70046EA06 /* egg.jpg in Resources */,
+				3F4E8F4C1A037CE70046EA06 /* bread.jpg in Resources */,
+				3F4E8F4B1A037CE70046EA06 /* cheez.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +449,7 @@
 				3F4E8F3E1A0363C00046EA06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F4E8F3F1A0363C00046EA06 /* Build configuration list for PBXNativeTarget "CoreDataProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +458,7 @@
 				3F4E8F411A0363C00046EA06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

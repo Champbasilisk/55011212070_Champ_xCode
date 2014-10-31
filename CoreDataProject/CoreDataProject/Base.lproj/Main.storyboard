@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="304" height="568"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="304" height="530"/>
                                 </variation>
                                 <connections>
                                     <outlet property="dataSource" destination="vXZ-lx-hvc" id="8Rp-kB-x8g"/>
@@ -40,9 +40,9 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="xWe-4Z-KR5">
-                        <barButtonItem key="rightBarButtonItem" title="Add" id="a4i-bX-8OM">
+                        <barButtonItem key="leftBarButtonItem" title="Add" id="BJw-rl-11y">
                             <connections>
-                                <action selector="addItem:" destination="vXZ-lx-hvc" id="tvw-I3-Eqk"/>
+                                <action selector="addItem:" destination="vXZ-lx-hvc" id="0j5-Pq-hyj"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

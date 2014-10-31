@@ -11,6 +11,7 @@ import CoreData
 class ViewController: UIViewController {
     
     var items = [NSManagedObject]()
+    var image = ["food","cheez","bread","beef","chicken","hamberger","egg","milk","apple","fish"];
     @IBOutlet var tableView: UITableView!
     @IBAction func addItem(sender: AnyObject) {
         var alert = UIAlertController(title: "New Item", message: "Add a new item", preferredStyle: .Alert)
@@ -80,9 +81,19 @@ class ViewController: UIViewController {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell{
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell") as UITableViewCell
         let item = items[indexPath.row ]
-        cell.textLabel!.text = item.valueForKey("name") as String?
+        let itemName = item.valueForKey("name") as String?
+        cell.textLabel!.text = itemName
         return cell
     }
-
+    @IBAction func deleteAllData(sender: UIButton) {
+        let appdelegate: AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        let managedContext: NSManagedObjectContext = appdelegate.managedObjectContext!
+        let entity = NSEntityDescription.entityForName("Item", inManagedObjectContext: managedContext)
+        let item = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext)
+        let fetchRequest = NSFetchRequest(entityName: "Item")
+        
+        managedContext.deletedObjects
+        item.setValue(nil, forKeyPath: "name")
+        tableView.reloadData()
+    }
 }
-
