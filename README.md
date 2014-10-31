@@ -8,3 +8,6 @@ Exam 1 Submit (xcode/zip)
 
 ====FRI 17/10/14====
 EDIT:Exam 1(xcode)
+
+====FRI 31/10/14====\
+Commit: Core data Project
