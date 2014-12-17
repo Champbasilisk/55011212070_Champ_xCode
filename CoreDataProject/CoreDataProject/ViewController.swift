@@ -19,8 +19,11 @@ class ViewController: UIViewController {
             { (action: UIAlertAction!) -> Void in
             
             let textField = alert.textFields![0] as UITextField
+            let textField2 = alert.textFields![0] as UITextField
             self.saveName(textField.text)
+            self.savePrice(textField2.text)
             self.tableView.reloadData()
+                
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .Default)
             { (action: UIAlertAction!) -> Void in}
@@ -41,6 +44,23 @@ class ViewController: UIViewController {
         let item = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext)
         
         item.setValue(name, forKey: "name")
+        
+        var error: NSError?
+        if !managedContext.save(&error){
+            println("Coild not save \(error), \(error?.userInfo)")
+        }
+        items.append(item)
+        
+    }
+    func savePrice(price: String){
+        
+        let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        let managedContext = appDelegate.managedObjectContext!
+        
+        let entity = NSEntityDescription.entityForName("Item", inManagedObjectContext: managedContext)
+        let item = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext)
+        
+        item.setValue(price, forKey: "name")
         
         var error: NSError?
         if !managedContext.save(&error){

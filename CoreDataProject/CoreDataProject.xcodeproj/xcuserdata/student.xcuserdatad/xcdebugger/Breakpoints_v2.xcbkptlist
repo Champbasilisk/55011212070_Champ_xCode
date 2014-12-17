@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreDataProject/ViewController.swift"
-            timestampString = "436440454.749723"
+            timestampString = "440481999.247833"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
             landmarkName = "deleteAllData(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreDataProject/ViewController.swift"
-            timestampString = "436440454.749723"
+            timestampString = "440481999.247833"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
             landmarkName = "deleteAllData(_:)"
             landmarkType = "5">
          </BreakpointContent>

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -87,16 +88,16 @@
                                 <exclude reference="LpW-fc-jtY"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Feg-IM-9sc"/>
-                                <exclude reference="GyS-Gy-BgM"/>
-                                <exclude reference="Xlf-yR-TuG"/>
-                                <exclude reference="kuz-pg-IVv"/>
                                 <exclude reference="G6O-5t-QXS"/>
                                 <exclude reference="JJ4-Wq-I9O"/>
                                 <exclude reference="gDT-3y-2vy"/>
                                 <exclude reference="tFs-E6-lfU"/>
-                                <exclude reference="2rU-BZ-RwD"/>
                                 <exclude reference="0Mj-uc-prb"/>
+                                <exclude reference="2rU-BZ-RwD"/>
+                                <exclude reference="Feg-IM-9sc"/>
+                                <exclude reference="GyS-Gy-BgM"/>
+                                <exclude reference="Xlf-yR-TuG"/>
+                                <exclude reference="kuz-pg-IVv"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -107,16 +108,16 @@
                                 <include reference="LpW-fc-jtY"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Feg-IM-9sc"/>
-                                <include reference="GyS-Gy-BgM"/>
-                                <include reference="Xlf-yR-TuG"/>
-                                <include reference="kuz-pg-IVv"/>
                                 <include reference="G6O-5t-QXS"/>
                                 <include reference="JJ4-Wq-I9O"/>
                                 <include reference="gDT-3y-2vy"/>
                                 <include reference="tFs-E6-lfU"/>
-                                <include reference="2rU-BZ-RwD"/>
                                 <include reference="0Mj-uc-prb"/>
+                                <include reference="2rU-BZ-RwD"/>
+                                <include reference="Feg-IM-9sc"/>
+                                <include reference="GyS-Gy-BgM"/>
+                                <include reference="Xlf-yR-TuG"/>
+                                <include reference="kuz-pg-IVv"/>
                             </mask>
                         </variation>
                     </view>
